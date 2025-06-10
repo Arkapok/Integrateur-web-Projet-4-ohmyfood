@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/**** Couleur ****/
+/* Dégradé */
+/**** Degré de gradation ****/
+/**** Largeur ****/
+/* Animation de chargement Délai */
+/**** Réactifs ****/
+/**** cercle ****/
+/**** Ombre ****/
+/**** Dégradé ****/
+/**** Réactifs ****/
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/**** Taille police ****/
+/**** Titre d'en tête ****/
+/**** Header ****/
+.header {
+  padding: 2%;
+}
+.header__logo {
+  margin: 0;
+  text-align: center;
+  font-size: 27px;
+  font-family: "Shrikhand", cursive;
+}
+.header__withorrow {
+  position: relative;
+}
+.header__goback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 5%;
+  width: 20px;
+  height: 20px;
+  top: 35%;
+  font-size: 20px;
+}
+@media all and (min-width: 1024px) {
+  .header__goback {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=Style.css.map */
